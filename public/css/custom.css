@@ -1,0 +1,105 @@
+/* Body */
+#app {
+    background-color: #00C897;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: 100vh;
+}
+
+/* Header */
+.card-header {
+    background-color: #019267;
+}
+
+/* Button */
+.btn {
+    border-radius: 15px !important;
+    transition: .4s;
+}
+.btn:hover {
+    transform: scale(1.03);
+}
+.btn-secondary {
+    background-color: #FDFFA9 !important;
+    color: rgba(0, 0, 0, 0.7) !important;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+.btn-success {
+    background-color: #4ECCA3;
+}
+.btn-info {
+    background-color: rgb(100, 100, 100) !important;
+    color: white !important;
+    border: 1px solid #4ECCA3 !important;
+}
+
+/* Card */
+.card {
+    border: none !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+/* Table */
+table th{
+    background-color: #FFD365 !important;
+    color: black !important;
+    border: none !important;
+}
+.table-head-1 {
+    border-top-left-radius: 15px;
+}
+.table-head-2 {
+    border-top-right-radius: 15px;
+}
+table td {
+    font-weight: 600 !important;
+    border: 1px solid black !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+.table-no {
+    border-left: none !important;
+}
+.table-end {
+    border-right: none !important;
+}
+.table-none {
+    border: none !important;
+}
+
+/* Pagination */
+.page-item .page-link {
+    color: rgba(0, 0, 0, 0.8);
+    border-radius: 3px;
+    margin: 0 3px; 
+} 
+.page-item.active .page-link {
+    background-color: #FFD365;
+    border-color: #FFD365; 
+}
+.page-item.disabled .page-link {
+    border-color: transparent;
+    background-color: #f9fafe;
+    color: rgba(0, 0, 0, 0.7) !important;
+    opacity: .6; 
+}
+.n-p .page-link {
+    background-color: #019267 !important;
+    color: rgba(255, 255, 255, 0.8);
+}
+.page-link {
+    border-color: transparent;
+    background-color: #f9fafe;
+    font-weight: 600; 
+}
+.page-link:hover {
+    background-color: #FDFFA9;
+    color: rgba(0, 0, 0, 0.7);
+    border-color: transparent; 
+}
+.page-link:focus {
+    box-shadow: none; 
+}
+
+
